@@ -4,7 +4,7 @@
 /* title font settings */
 #p0 { 
     text-align: left; 
-    font-size: 38px;
+    font-size: 32px;
     margin-left: 40px;
 }
 /* text font settings */
@@ -29,6 +29,7 @@
 }
 /* link settings */
 .navigation_bar_left a , .navigation_bar_right a {
+    margin: 3px;
     color: black;
     padding: 8px 20px;
     text-decoration: none;
@@ -54,7 +55,7 @@
 
 /* about section settings */
 .about {
-    margin: 0px;
+    margin: 3px;
     border: 0px;
     padding: 40px;
     background-color: #f0eeee;
