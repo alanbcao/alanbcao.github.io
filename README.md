@@ -14,6 +14,7 @@ alanbcao.github.io/
 ├── index.html
 ├── html
 │   ├── about.html
+│   ├── art.html
 │   ├── contact.html
 |   └── research.html
 └── css

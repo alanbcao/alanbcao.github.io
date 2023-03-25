@@ -2,22 +2,19 @@
 /*===== Global Settings ======*/
 
 /* title font settings */
-#p0 { 
+p.title { 
     text-align: left; 
     font-size: 32px;
-    margin-left: 40px;
 }
 /* text font settings */
-#p1 { 
+p.text , p.about_text { 
     text-align: left; 
     font-size: 18px;
-    margin-left: 40px;
-    margin-right: 200px;
 }
+p.about_text {text-align: justify;}
 
 /*============================*/
 /*============================*/
-
 
 
 /*====== Navigation Bar ======*/
@@ -26,12 +23,15 @@
 .navigation_bar_left , .navigation_bar_right {
     background-color: white;
     overflow: hidden;
+    margin-left: 8px;
+    margin-right: 4px;
 }
 /* link settings */
 .navigation_bar_left a , .navigation_bar_right a {
-    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 14px;
     color: black;
-    padding: 10px 20px;
+    padding: 14px 20px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -51,30 +51,48 @@
 /*============================*/
 
 
+/*========= Homepage =========*/
+
+/*============================*/
+/*============================*/
+
+
 /*======= About Section ======*/
 
 /* about section settings */
 .about {
-    margin: 0px;
-    border: 0px;
     padding: 40px;
     background-color: #f0eeee;
-    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 /* link settings */
 .about a {
     color: black;
     text-decoration: none;
     padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* text settings */
+.about_section{
+    height: 400px;
+    max-width:860px;
+    margin: auto;
 }
 /* image settings */
 .about_image {
-    margin: 30px;
-    padding: 20px;
+    margin-left: 80px;
     float: right;
-    width: 250px;
-    margin-right: 60px;
+    width: 200px;
+    height: auto;
 }
+
+/*============================*/
+/*============================*/
+
+
+/*====== Research Page =======*/
 
 /*============================*/
 /*============================*/
