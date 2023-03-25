@@ -1,5 +1,4 @@
-# Alan B. Cao Website
-
+# Alan B. Cao
 Personal website for Alan B. Cao. 
 
 ## Installation and Usage
