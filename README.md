@@ -8,6 +8,7 @@ How to install on a new system
 
 ## Structure
 
+```
 alanbcao.github.io/
 ├── README.md
 ├── index.html
@@ -17,3 +18,4 @@ alanbcao.github.io/
 |   └── research.html
 └── css
     └── styles.css
+```
