@@ -1,17 +1,30 @@
 
 /*===== Global Settings ======*/
 
+body {
+    font-family: Garamond, serif;
+}
+
 /* title font settings */
-p.title { 
+p.title , p.art_title { 
     text-align: left; 
-    font-size: 32px;
+    font-size: 32px;   
+}
+p.art_title {
+    color: white;
+    font-size: 100px;
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
 }
 /* text font settings */
-p.text , p.about_text { 
+p.text , p.about_text , p.art_text{ 
     text-align: left; 
-    font-size: 18px;
+    font-size: 20px;
 }
 p.about_text {text-align: justify;}
+p.art_text {color: white;}
 
 /*============================*/
 /*============================*/
@@ -74,7 +87,7 @@ p.about_text {text-align: justify;}
     margin-left: 0px;
     margin-right: 0px;
 }
-/* text settings */
+/* about container settings */
 .about_section{
     height: 400px;
     max-width:860px;
@@ -96,3 +109,24 @@ p.about_text {text-align: justify;}
 
 /*============================*/
 /*============================*/
+
+
+/*======== Art Section =======*/
+
+/* art section settings */
+.art {
+    padding: 10px;
+    background-color: #2393fc;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+/* art container settings */
+.art_section{
+    margin-left: 40px;
+    height: 200px;
+    text-align: left; 
+}
+
+/*============================*/
+/*============================*/
+
