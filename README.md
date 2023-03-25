@@ -1,10 +1,11 @@
-# Website
+# Alan B. Cao Website
 
-Alan's website
+Personal website for Alan B. Cao. 
 
 ## Installation and Usage
 
-How to install on a new system
+Most of the code is written from scratch and self-contained. 
+Any imported Cascading Style Sheets (CSS) should be listed here.
 
 ## Structure
 
