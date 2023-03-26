@@ -79,9 +79,25 @@ p.res_text {
 /* home container settings */
 .home_container {
     background-color: black;
-    padding: 40px;
+    padding: 20px;
     margin-left: 5px;
     margin-right: 5px;
+}
+/* home contact container settings */
+.home_contact_container {
+    background-color: white;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 160px;
+}
+/* home contact container link settings */
+.home_contact_container a {
+    color: black;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
 }
 /*============================*/
 
@@ -93,7 +109,7 @@ p.res_text {
     padding: 60px;
     margin-left: 5px;
     margin-right: 5px;
-    min-height: 410px;
+    min-height: 430px;
 }
 /* about container settings */
 .about_container {
@@ -114,6 +130,20 @@ p.res_text {
     float: right;
     width: 200px;
     height: auto;
+}
+/* home contact container settings */
+.about_contact_container {
+    list-style-type: none;
+    max-width: 860px;  
+    margin: auto;
+    margin-top: 35px;
+}
+/* home contact container link settings */
+.about_contact_container a {
+    color: black;
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 18px; 
 }
 /*============================*/
 
